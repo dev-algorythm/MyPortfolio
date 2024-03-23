@@ -1,0 +1,84 @@
+$color-navy-blue : #131921;
+$color-dark-blue : #232F3E;
+$color-yellow :#FFD814;
+$color-dark-yellow : #F3A847;
+$color-light-grey: #E3E6E6;
+$color-light: #FFFFFF;
+$color-dark: #000000;
+$color-light-blue: #007185;
+$color-grey: #565959;
+
+
+// Text Colors
+.text-navy-blue {
+    color: $color-navy-blue !important;
+}
+
+.text-dark-blue {
+    color: $color-dark-blue !important;
+}
+
+.text-yellow {
+    color: $color-yellow !important;
+}
+
+.text-dark-yellow {
+    color: $color-dark-yellow !important;
+}
+
+.text-light-grey {
+    color: $color-light-grey !important;
+}
+
+.text-light {
+    color: $color-light !important;
+}
+
+.text-dark {
+    color: $color-dark !important;
+}
+
+.text-light-blue {
+    color: $color-light-blue !important;
+}
+
+.text-grey {
+    color: $color-grey !important;
+}
+
+// Background Colors
+.bg-navy-blue {
+    background-color: $color-navy-blue !important;
+}
+
+.bg-dark-blue {
+    background-color: $color-dark-blue !important;
+}
+
+.bg-yellow {
+    background-color: $color-yellow !important;
+}
+
+.bg-dark-yellow {
+    background-color: $color-dark-yellow !important;
+}
+
+.bg-light-grey {
+    background-color: $color-light-grey !important;
+}
+
+.bg-light {
+    background-color: $color-light !important;
+}
+
+.bg-dark {
+    background-color: $color-dark !important;
+}
+
+.bg-light-blue {
+    background-color: $color-light-blue !important;
+}
+
+.bg-grey {
+    background-color: $color-grey !important;
+}

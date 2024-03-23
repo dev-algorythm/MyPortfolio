@@ -1,0 +1,213 @@
+.text-navy-blue {
+  color: #131921 !important; }
+
+.text-dark-blue {
+  color: #232F3E !important; }
+
+.text-yellow {
+  color: #FFD814 !important; }
+
+.text-dark-yellow {
+  color: #F3A847 !important; }
+
+.text-light-grey {
+  color: #E3E6E6 !important; }
+
+.text-light {
+  color: #FFFFFF !important; }
+
+.text-dark {
+  color: #000000 !important; }
+
+.text-light-blue {
+  color: #007185 !important; }
+
+.text-grey {
+  color: #565959 !important; }
+
+.bg-navy-blue {
+  background-color: #131921 !important; }
+
+.bg-dark-blue {
+  background-color: #232F3E !important; }
+
+.bg-yellow {
+  background-color: #FFD814 !important; }
+
+.bg-dark-yellow {
+  background-color: #F3A847 !important; }
+
+.bg-light-grey {
+  background-color: #E3E6E6 !important; }
+
+.bg-light {
+  background-color: #FFFFFF !important; }
+
+.bg-dark {
+  background-color: #000000 !important; }
+
+.bg-light-blue {
+  background-color: #007185 !important; }
+
+.bg-grey {
+  background-color: #565959 !important; }
+
+.text-mini {
+  font-size: 12px; }
+
+.text-small {
+  font-size: 14px; }
+
+.text-mid {
+  font-size: 18px; }
+
+.text-large {
+  font-size: 20px; }
+
+.text-thin {
+  font-weight: 200; }
+
+.text-thick {
+  font-weight: 500; }
+
+.text-bolder {
+  font-weight: 700; }
+
+.lh-16 {
+  line-height: 16px; }
+
+.prouct-card-font {
+  font-family: "Robotto", sans-serif !important; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #FFFFFF !important;
+  text-decoration: none !important; }
+
+.product_card {
+  background-color: #FFFFFF;
+  padding: 8px 16px;
+  max-height: 600px;
+  height: 100%; }
+  .product_card h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important; }
+
+.body_container {
+  background-color: #E3E6E6; }
+
+.head_search_sect {
+  background-color: #131921;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.company_logo {
+  border: 1px solid transparent; }
+  .company_logo:hover {
+    border: 1px solid #FFFFFF; }
+
+.deliver_location {
+  display: flex;
+  align-items: center; }
+
+.deliver_location_box {
+  border: 1px solid transparent; }
+  .deliver_location_box:hover {
+    border: 1px solid #FFFFFF; }
+
+.search_area_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  color: #565959; }
+
+.search_select select {
+  width: 54px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 2px 0 0 2px; }
+
+.search_bar input {
+  width: 1200px;
+  height: 40px;
+  border: none; }
+  .search_bar input:active {
+    border: none; }
+
+.search_btn button {
+  width: 46px;
+  height: 40px;
+  border: none;
+  border-radius: 0 2px 2px 0; }
+
+.lang_box {
+  border: 1px solid transparent; }
+  .lang_box:hover {
+    border: 1px solid #FFFFFF; }
+
+.sign_in_box {
+  border: 1px solid transparent; }
+  .sign_in_box:hover {
+    border: 1px solid #FFFFFF; }
+
+.return_box {
+  border: 1px solid transparent; }
+  .return_box:hover {
+    border: 1px solid #FFFFFF; }
+
+.cart_box {
+  border: 1px solid transparent; }
+  .cart_box:hover {
+    border: 1px solid #FFFFFF; }
+
+.lang_country_img {
+  width: 20px; }
+  .lang_country_img img {
+    width: 100%; }
+
+.head_nav_sect {
+  background-color: #232F3E;
+  color: #FFFFFF; }
+
+.head_nav_ul ul {
+  list-style: none;
+  padding: 0 10px; }
+.head_nav_ul li {
+  display: inline-block;
+  padding: 10px; }
+
+.body_content {
+  margin: 0 auto;
+  max-width: 75%;
+  width: 100%; }
+
+.hero_msg a {
+  color: #007185 !important; }
+
+.hero_cover {
+  position: absolute; }
+
+.product_cards {
+  position: relative;
+  top: 250px; }
+  .product_cards img {
+    width: 100%; }
+
+.carousel-control.hero_carousel_control {
+  bottom: 300px !important; }
+  .carousel-control.hero_carousel_control.left {
+    left: -60px;
+    background: none;
+    color: #000000 !important; }
+  .carousel-control.hero_carousel_control.right {
+    right: -60px;
+    background: none;
+    color: #000000 !important; }
+
+/*# sourceMappingURL=style.css.map */
