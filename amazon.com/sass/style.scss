@@ -6,7 +6,7 @@
 }
 
 a {
-    color: $color-light !important;
+    color: $color-light;
     text-decoration: none !important;
 }
 
@@ -52,6 +52,14 @@ a {
 
 .deliver_location_box {
     border: 1px solid transparent;
+
+    a {
+        color: $color-light;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
 
     &:hover {
         border: 1px solid $color-light;
@@ -100,6 +108,15 @@ a {
 .lang_box {
     border: 1px solid transparent;
 
+
+    a {
+        color: $color-light;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
+
     &:hover {
         border: 1px solid $color-light;
     }
@@ -107,6 +124,14 @@ a {
 
 .sign_in_box {
     border: 1px solid transparent;
+
+    a {
+        color: $color-light;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
 
     &:hover {
         border: 1px solid $color-light;
@@ -116,6 +141,14 @@ a {
 .return_box {
     border: 1px solid transparent;
 
+    a {
+        color: $color-light;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
+
     &:hover {
         border: 1px solid $color-light;
     }
@@ -123,6 +156,14 @@ a {
 
 .cart_box {
     border: 1px solid transparent;
+
+    a {
+        color: $color-light;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
 
     &:hover {
         border: 1px solid $color-light;
@@ -152,6 +193,14 @@ a {
         display: inline-block;
         padding: 10px;
     }
+
+    a {
+        color: $color-light;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
 }
 
 // Header CSS End
@@ -173,9 +222,9 @@ a {
     position: absolute;
 }
 
-.product_cards {
+.product_cards_box {
     position: relative;
-    top: 250px;
+    padding-top: 240px;
 
     img {
         width: 100%;
@@ -187,19 +236,91 @@ a {
 
     &.left {
         left: -60px;
-        background: none;   
+        background: none;
         color: $color-dark !important;
     }
 
     &.right {
         right: -60px;
-        background: none;   
+        background: none;
         color: $color-dark !important;
     }
 }
 
-// .carousel-control.hero_carousel_control.left{
-//     left: 100px !important;
-//     background: none;
-// }
+.long_card {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.long_card_img {
+    max-width: 200px;
+    max-height: 200px;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.long_price_card_img {
+    max-width: 150px;
+    max-height: 150px;
+    background-color: $color-light-grey;
+
+    img {
+        width: auto;
+        height: 100%;
+    }
+}
+
 // Body CSS End
+
+// Footer CSS Start
+
+.back_to_top_btn {
+    background-color: #485769;
+
+    a {
+        color: $color-light;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
+
+    &:hover {
+        background-color: #63758b;
+    }
+}
+
+.user_facility_sect {
+    background-color: $color-dark-blue;
+    color: $color-light;
+    padding: 40px 0;
+}
+
+.user_facility_ul {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.user_facility_options {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.footer_navs_box {
+    background-color: $color-navy-blue;
+
+    a {
+        &:hover {
+            text-decoration: underline !important;
+            // line-height: 3px
+        }
+    }
+}
+
+.footer_navs {
+    max-width: 50%;
+    margin: 0 auto;
+}

@@ -1,0 +1,54 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.company_logo {
+    padding: 40px 20px 30px 20px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: $color-dark !important;
+    color: $color-light !important;
+}
+
+.navigation_sect {
+    border-right: 2px solid $color-brown;
+    padding: 0 0 0 10px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    a {
+        color: $color-light !important;
+        text-decoration: none !important;
+    }
+}
+
+.navigation_nav {
+    padding: 16px 140px 16px 16px;
+    transition: .3s;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $color-brown;
+    }
+}
+
+.navigation_navs_panel {
+    padding: 0 8px;
+}
+
+.navigation_more_panel {
+    padding: 0 8px;
+}
+
+.nav_logo {
+    img {
+        width: 24px;
+    }
+}

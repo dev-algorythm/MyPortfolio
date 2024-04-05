@@ -1,0 +1,59 @@
+$color-blue : #0099FF;
+$color-dark-grey: #737373;
+$color-light: #FFFFFF;
+$color-dark: #000000;
+$color-grey: #a8a8a8;
+$color-brown: #1A1A1A;
+
+
+// Text Colors
+
+.text-brown{
+    color: $color-brown !important;
+}
+
+.text-blue {
+    color: $color-blue !important;
+}
+
+.text-dark-grey {
+    color: $color-dark-grey !important;
+}
+
+.text-light {
+    color: $color-light !important;
+}
+
+.text-dark {
+    color: $color-dark !important;
+}
+
+.text-grey {
+    color: $color-grey !important;
+}
+
+// Background Colors
+
+.bg-brown{
+    background-color: $color-brown !important;
+}
+
+.bg-blue {
+    background-color: $color-blue !important;
+}
+
+.bg-light {
+    background-color: $color-light !important;
+}
+
+.bg-dark {
+    background-color: $color-dark !important;
+}
+
+.bg-dark-grey {
+    background-color: $color-dark-grey !important;
+}
+
+.bg-grey {
+    background-color: $color-grey !important;
+}

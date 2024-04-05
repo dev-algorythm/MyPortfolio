@@ -1,0 +1,85 @@
+.text-blue {
+  color: #0099FF !important;
+}
+
+.text-dark-grey {
+  color: #737373 !important;
+}
+
+.text-light {
+  color: #FFFFFF !important;
+}
+
+.text-dark {
+  color: #000000 !important;
+}
+
+.text-grey {
+  color: #a8a8a8 !important;
+}
+
+.bg-blue {
+  background-color: #0099FF !important;
+}
+
+.bg-light {
+  background-color: #FFFFFF !important;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.bg-dark-grey {
+  background-color: #737373 !important;
+}
+
+.bg-grey {
+  background-color: #a8a8a8 !important;
+}
+
+.text-mini {
+  font-size: 12px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-mid {
+  font-size: 18px;
+}
+
+.text-large {
+  font-size: 20px;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.text-thick {
+  font-weight: 500;
+}
+
+.text-bolder {
+  font-weight: 700;
+}
+
+.lh-16 {
+  line-height: 16px;
+}
+
+.prouct-card-font {
+  font-family: "Robotto", sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #000000;
+}/*# sourceMappingURL=style.css.map */

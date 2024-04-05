@@ -1,0 +1,104 @@
+.text-brown {
+  color: #1A1A1A !important; }
+
+.text-blue {
+  color: #0099FF !important; }
+
+.text-dark-grey {
+  color: #737373 !important; }
+
+.text-light {
+  color: #FFFFFF !important; }
+
+.text-dark {
+  color: #000000 !important; }
+
+.text-grey {
+  color: #a8a8a8 !important; }
+
+.bg-brown {
+  background-color: #1A1A1A !important; }
+
+.bg-blue {
+  background-color: #0099FF !important; }
+
+.bg-light {
+  background-color: #FFFFFF !important; }
+
+.bg-dark {
+  background-color: #000000 !important; }
+
+.bg-dark-grey {
+  background-color: #737373 !important; }
+
+.bg-grey {
+  background-color: #a8a8a8 !important; }
+
+.text-mini {
+  font-size: 12px; }
+
+.text-small {
+  font-size: 16px; }
+
+.text-mid {
+  font-size: 18px; }
+
+.text-large {
+  font-size: 20px; }
+
+.text-thin {
+  font-weight: 200; }
+
+.text-thick {
+  font-weight: 500; }
+
+.text-bolder {
+  font-weight: 700; }
+
+.lh-16 {
+  line-height: 16px; }
+
+.prouct-card-font {
+  font-family: "Robotto", sans-serif !important; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.company_logo {
+  padding: 40px 20px 30px 20px; }
+
+body {
+  overflow-x: hidden;
+  background-color: #000000 !important;
+  color: #FFFFFF !important; }
+
+.navigation_sect {
+  border-right: 2px solid #1A1A1A;
+  padding: 0 0 0 10px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: fixed; }
+  .navigation_sect a {
+    color: #FFFFFF !important;
+    text-decoration: none !important; }
+
+.navigation_nav {
+  padding: 16px 140px 16px 16px;
+  transition: .3s;
+  border-radius: 5px; }
+  .navigation_nav:hover {
+    background-color: #1A1A1A; }
+
+.navigation_navs_panel {
+  padding: 0 8px; }
+
+.navigation_more_panel {
+  padding: 0 8px; }
+
+.nav_logo img {
+  width: 24px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+$text-mini: 12px;
+$text-small: 16px;
+$text-mid: 18px;
+$text-large: 20px;
+
+$text-thin: 200;
+$text-thick: 500;
+$text-bold: 700;
+
+$product-card-font:  "Robotto", sans-serif ;
+
+// Font Size 
+.text-mini {
+    font-size: $text-mini;
+}
+
+.text-small {
+    font-size: $text-small;
+}
+
+.text-mid {
+    font-size: $text-mid;
+}
+
+.text-large {
+    font-size: $text-large;
+}
+
+// Font Weight
+.text-thin {
+    font-weight: $text-thin;
+}
+
+.text-thick {
+    font-weight: $text-thick;
+}
+
+.text-bolder {
+    font-weight: $text-bold;
+}
+
+// Extras
+.lh-16 {
+    line-height: 16px;
+}
+
+.prouct-card-font {
+    font-family: $product-card-font !important;
+}
