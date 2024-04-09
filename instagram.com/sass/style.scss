@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+a {
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
 .company_logo {
     padding: 40px 20px 30px 20px;
 }
@@ -23,6 +29,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     position: fixed;
+
     a {
         color: $color-light !important;
         text-decoration: none !important;
@@ -51,4 +58,95 @@ body {
     img {
         width: 24px;
     }
+}
+
+.content_area {
+    padding: 30px 320px;
+}
+
+.story {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 8px;
+}
+
+.story.story_unseen {
+    background: linear-gradient(to right, red, orange);
+}
+
+.story.story_seen {
+    background-color: $color-brown;
+}
+
+.story_img_box {
+    padding: 2px;
+}
+
+.story_img {
+    border: 3px solid $color-dark;
+    border-radius: 50%;
+
+    img {
+        border-radius: 50%;
+        width: 100%;
+    }
+}
+
+.posts_panel {
+    padding: 50px 100px;
+}
+
+.post_card {
+    border-bottom: 1px solid $color-brown;
+    width: 460px;
+    padding: 10px 0;
+}
+
+.above_img {
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+.below_img {
+    position: absolute;
+}
+
+.post_owner_img_box {
+    width: 24px;
+
+    img {
+        border-radius: 50%;
+        width: 100%;
+    }
+}
+
+.post_img_box {
+    border: 1px solid $color-brown;
+    border-radius: 6px;
+    margin: 8px 0;
+
+    img {
+        width: 100%;
+        border-radius: 6px;
+    }
+}
+
+.post_owner_actions {
+    i {
+        font-size: 24px;
+        color: $color-light;
+    }
+}
+
+.post_user_actions {
+    i {
+        font-size: 24px;
+        color: $color-light;
+    }
+}
+
+.post_descrip {
+    line-height: 20px;
 }
